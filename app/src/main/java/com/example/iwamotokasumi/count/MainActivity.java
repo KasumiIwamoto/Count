@@ -24,4 +24,16 @@ public class MainActivity extends AppCompatActivity {
         //テキストにnumberの値を表示
         text.setText(String.valueOf(number));
     }
+    public void minus(View v){
+        number  = number - 1;
+        text.setText(String.valueOf(number));
+    }
+    public void kakeru(View v){
+        number = number * 2;
+        text.setText(String.valueOf(number));
+    }
+    public void waru(View v){
+        number = number / 2;
+        text.setText(String.valueOf(number));
+    }
 }
